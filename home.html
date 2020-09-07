@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Website | Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/a4d05c5536.js" crossorigin="anonymous"></script>
+
+    <style>
+
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            font-family: 'Raleway', sans-serif;
+        }
+
+        .current{
+            background: #0a0b0c;
+        }
+
+        .nav-bar{
+            background: #2b2d32;
+            color: white;
+            overflow: auto;
+        }
+
+        .nav-bar h1{
+            display: inline;
+            position: relative;
+            top: 5px;
+            left: 60px;
+            font-size:200%;
+        }
+        
+        .nav-bar ul{
+            display: inline;
+            position: relative;
+            right: 40px;
+        }
+
+        .nav-bar li{
+            float: right;
+            list-style: none;
+            
+        }
+
+        .nav-bar a{
+            text-decoration: none;
+            display: block;
+            color: white;
+            padding: 15px;
+        }
+
+        .nav-bar a:hover{
+            background: #0a0b0c;
+            cursor: pointer;
+        }
+
+
+        /* Showcase Section */
+        .landing-pic{
+            background-image: url(./img/showcase.jpg);
+            height: 550px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position:center;
+        }
+
+        .text{
+            max-width: 80%;
+            margin: auto;
+            text-align: center;
+            position: relative;
+            top: 35%;
+            line-height: 2.5em;
+            font-size: 150%;
+            color: white;
+            font-weight: bold;
+        }
+
+        .text button a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .text button{
+            background: #2b2d32;
+            padding: 10px;
+            border: none;
+        }
+
+        .text button:hover{
+            background: #0a0b0c;
+            cursor: pointer;
+        }
+
+        .text span{
+            color: #ff6100;
+        }
+
+    
+    /* Content Section */
+        #content{
+            height: 350px;
+        }
+
+
+        .box-1{
+            float: left;
+            width: 50%;
+            background: url(./img/photo-1.jpg) no-repeat;
+            min-height: 100%;
+        }
+
+        .box-2{
+            float: right;
+            width: 50%;
+            height: 100%;
+            text-align: center;
+            padding: 50px 30px;
+            overflow: hidden;
+            background: #2b2d32;
+            color: white;
+            line-height: 1.7em;
+        }
+
+        .box-2 span{
+            color: #ff6100;
+        }
+
+        .box-2 h3{
+
+            padding: 20px;
+        }
+
+        .box-2 p{
+            padding: 20px;
+        }
+
+
+        .box-2 a{
+            text-decoration: none;
+            color: black;
+            display: inline-block;
+            background: white;
+            text-align: center;
+            padding: 7px;
+        }
+
+        .box-2 a:hover{
+            background: #0a0b0c;
+            color: white;
+            cursor: pointer;
+        } 
+
+
+        /* Container-Item Section */
+        .container{
+            clear: both;
+        }
+
+        .item{
+            width: 33%;
+            height: 250px;
+            float: left;
+            padding: 20px;
+            text-align: center;
+            line-height: 1.7em;
+            overflow: hidden;
+        }
+
+        .item p{
+            margin-top: 10px;
+        }
+
+        .item-2{
+            background-color: #ff6100;
+        }
+
+        
+        .item i{
+            font-size: 50px;
+            padding: 10px;
+        }
+
+        /* Footer Section */
+        .footer{
+            clear: both;
+            text-align: center;
+            background-color: #2b2d32;
+            padding: 20px;
+            color: white;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="nav-bar">
+
+        <h1>HBT</h1>
+
+        <ul>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="home.html" class="current">Home</a></li>
+        </ul>
+    </div>
+
+    <div class="landing-pic">
+        <div class="text">
+            <h1><span>Enjoy</span> Your Stay</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, explicabo?</p>
+            <button type="submit"><a href="about.html">About Our Hotel</a></button>
+        </div>
+    </div>
+
+    <div id=content>
+        <div class="box-1">
+            
+        </div>
+        <div class="box-2">
+            <h3><span>The History</span> of Our Hotel</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo libero neque quos sunt sit, voluptatibus temporibus corrupti incidunt modi vel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quidem tempore nesciunt illum minus? Neque suscipit id praesentium ipsam esse!</p>
+            <a href="about.html">Read More</a>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="item">
+            <i class="fas fa-hotel"></i>
+            <h4>Great Location</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptas.</p>
+        </div>
+        <div class="item item-2">
+            <i class="fas fa-utensils"></i>
+            <h4>Free Meals</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, voluptatum.</p>
+        </div>
+        <div class="item">
+            <i class="fas fa-dumbbell"></i>
+            <h4>Fitness Room</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, voluptatum.</p>
+        </div>
+
+    </div>
+
+    <div class="footer">
+            <p>Hotel BT &copy; 2020, All Rights Reserved</p>
+    </div>
+
+</body>
+</html>

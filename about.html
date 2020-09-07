@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Website | About</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/a4d05c5536.js" crossorigin="anonymous"></script>
+
+    <style>
+
+        /* Utility Section */
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            font-family: 'Raleway', sans-serif;
+        }
+
+        .current{
+            background: #0a0b0c;
+        }
+
+
+        /* Navbar Section */
+        .nav-bar{
+            background: #2b2d32;
+            color: white;
+            overflow: auto;
+        }
+
+        .nav-bar h1{
+            display: inline;
+            position: relative;
+            top: 5px;
+            left: 60px;
+            font-size:200%;
+        }
+        
+        .nav-bar ul{
+            display: inline;
+            position: relative;
+            right: 40px;
+        }
+
+        .nav-bar li{
+            float: right;
+            list-style: none;
+            
+        }
+
+        .nav-bar a{
+            text-decoration: none;
+            display: block;
+            color: white;
+            padding: 15px;
+        }
+
+        .nav-bar a:hover{
+            background: #0a0b0c;
+            cursor: pointer;
+        }
+
+
+        /* About-Info Section */
+        .about-info{
+            height: 350px;
+            overflow: hidden;
+        }
+
+        .info{
+            width: 50%;
+            float: left;
+            padding: 30px;
+            min-height: 100%;
+            text-align: justify;
+            line-height: 2em;
+        }
+
+        .info h1{
+            margin-bottom: 20px;
+        }
+
+        .info h1 span{
+            color: #ff6100;
+        }
+
+        .image{
+            width: 50%;
+            float: right;
+            min-height: 100%;
+            padding: 20px;
+        }
+
+        .image img{
+            width: 70%;
+            min-height: 100%;
+            border-radius: 50%;
+        }
+
+        
+        .testimonial{
+            clear: both;
+            min-height: 400px;
+            background: url(./img/test-bg.jpg) no-repeat;
+            background-size: cover;
+            padding: 30px;
+        }
+
+        .testimonial h2{
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+
+        .comment{
+            background: #ff6200ab;
+            width: 80%;
+            margin: 50px auto;
+            padding: 10px;
+            border-radius: 10px;
+            font-weight: bold;
+            overflow: hidden;
+        }
+
+        .comment img{
+            width: 60px;
+            border-radius: 50%;
+            float: left;
+            margin-right: 20px;
+        }
+
+        .comment p{
+            margin-top: 10px;
+        }
+
+        /* Footer Section */
+        .footer{
+            clear: both;
+            text-align: center;
+            background-color: #2b2d32;
+            padding: 20px;
+            color: white;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="nav-bar">
+
+        <h1>HBT</h1>
+
+        <ul>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html"  class="current">About</a></li>
+            <li><a href="home.html">Home</a></li>
+        </ul>
+    </div>
+
+    <div class="about-info">
+        <div class="info">
+            <h1><span>About</span> Hotel BT</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus cupiditate qui veniam quo, totam sunt quis reprehenderit eius cum eum tempora sint laudantium alias ipsam soluta. Magni corrupti consequatur totam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores enim neque ipsa dolorem quo provident tempore. Quisquam, distinctio? Facilis aliquam quisquam qui facere totam atque tempore doloremque amet distinctio eveniet!</p>
+        </div>
+
+        <div class="image">
+            <img src="./img/photo-2.jpg" alt="hotel">
+        </div>
+    </div>
+
+    <div class="testimonial">
+
+        <h2>What Our Guests Say</h2>
+
+        <div class="comment">
+            <img src="./img/person-1.jpg" alt="person-1">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quaerat perferendis laudantium voluptas eum delectus voluptatem nihil eveniet aspernatur asperiores?</p>
+        </div>
+
+        <div class="comment">
+            <img src="./img/person-2.jpg" alt="person-2">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat pariatur iure porro atque eius, laborum ut harum voluptate sunt ipsam.</p>
+        </div>
+
+    </div>
+
+
+    <div class="footer">
+            <p>Hotel BT &copy; 2020, All Rights Reserved</p>
+    </div>
+
+</body>
+</html>

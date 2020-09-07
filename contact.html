@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Website | Contact</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/a4d05c5536.js" crossorigin="anonymous"></script>
+
+    <style>
+
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            font-family: 'Raleway', sans-serif;
+        }
+
+        .current{
+            background: #0a0b0c;
+        }
+
+        .nav-bar{
+            background: #2b2d32;
+            color: white;
+            overflow: auto;
+        }
+
+        .nav-bar h1{
+            display: inline;
+            position: relative;
+            top: 5px;
+            left: 60px;
+            font-size:200%;
+        }
+        
+        .nav-bar ul{
+            display: inline;
+            position: relative;
+            right: 40px;
+        }
+
+        .nav-bar li{
+            float: right;
+            list-style: none;
+            
+        }
+
+        .nav-bar a{
+            text-decoration: none;
+            display: block;
+            color: white;
+            padding: 15px;
+        }
+
+        .nav-bar a:hover{
+            background: #0a0b0c;
+            cursor: pointer;
+        }
+
+        /* Contact-Form Section */
+        .contact-form{
+            width: 90%;
+            margin: auto;
+            padding: 30px;
+            line-height: 1.5em;
+        }
+
+        .contact-form h1{
+            margin-bottom: 20px;
+        }
+
+        .contact-form p{
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .contact-form label{
+            font-weight: bold;
+        }
+
+        .contact-form h1 span{
+            color: #ff6100;
+        }
+        
+        .form-input{
+            margin-bottom: 20px;
+        }
+
+        input, textarea{
+            width: 100%;
+            padding: 5px;
+            border: 1px solid rgb(224, 224, 224);
+        }
+
+        .btn a{
+            text-decoration: none;
+            display: inline-block;
+            background-color: #2b2d32;
+            padding: 10px;
+            color: white;
+        }
+
+        .btn a:hover{
+            background-color: #0a0b0c;
+            cursor: pointer;
+        }
+
+        /* Contact-Details Section */
+        .contact-details{
+            background-color:#0a0b0c;
+            color: white;
+            padding: 20px;
+            height: 200px;
+            text-align: center;
+        }
+
+        .details{
+            width: 33.33%;
+            float: left;
+        }
+
+        .details h4,
+        .details i,
+        .details p{
+            margin-top: 20px;
+        }
+
+        /* Footer Section */
+
+        .footer{
+            clear: both;
+            text-align: center;
+            background-color: #2b2d32;
+            padding: 20px;
+            color: white;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="nav-bar">
+
+        <h1>HBT</h1>
+
+        <ul>
+            <li><a href="contact.html" class="current">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="home.html">Home</a></li>
+        </ul>
+    </div>
+
+    <div class="contact-form">
+        <h1><span>Contact</span> Us</h1>
+        <p>Please fill out the form below to contact us</p>
+        <form action="#">
+            <div class="form-input">
+            <label for="name">Name</label><br>
+            <input type="text" name="name" id="name">
+            </div>
+            
+            <div class="form-input">
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div class="form-input">
+                <label for="message">Message</label><br>
+                <textarea name="message" id="message" cols="60" rows="10"></textarea>
+            </div>
+
+            <div class="btn">
+                <a href="#">Submit</a>
+            </div>
+        </form>
+    </div>
+
+    <div class="contact-details">
+
+        <div class="details">
+            <i class="fas fa-hotel fa-3x"></i>
+            <h4>Location</h4>
+            <p>21-Kalapet, Pondicherry</p>
+        </div>
+
+        <div class="details">
+            <i class="fas fa-phone fa-3x"></i>
+            <h4>Phone-Number</h4>
+            <p>(+91)7002426309</p>
+        </div>
+
+        <div class="details">
+            <i class="fas fa-envelope fa-3x"></i>
+            <h4>Email Address</h4>
+            <p>anupkalita@gmail.com</p>
+        </div>
+
+    </div>
+
+    <div class="footer">
+            <p>Hotel BT &copy; 2020, All Rights Reserved</p>
+    </div>
+
+</body>
+</html>
