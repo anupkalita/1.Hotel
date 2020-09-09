@@ -112,7 +112,7 @@
         .box-1{
             float: left;
             width: 50%;
-            background: url(./img/photo-1.jpg) no-repeat;
+            background: url(./img/photo-1.jpg) no-repeat center center/cover;
             min-height: 100%;
         }
 
@@ -196,7 +196,7 @@
             color: white;
         }
 
-        /* Media Queries*/
+        /* Media Queries for Mobiles*/
         @media(max-width: 500px){
 
             /* nav-bar */
@@ -254,12 +254,7 @@
                 float: right;
                 width: 100%;
                 height: 100%;
-                text-align: center;
                 padding: 10px;
-                overflow: hidden;
-                background: #2b2d32;
-                color: white;
-                line-height: 1.7em;
             }
 
             .box-2 h3{
@@ -281,6 +276,71 @@
                 float: none;
             }
 
+        }
+
+        /* Media Queries for tablet */
+        @media(max-width: 768px){
+
+            /* Content Section */
+            .box-1{
+                float: none;
+                width: 100%;
+                background: url(./img/photo-1.jpg) no-repeat center center/cover;
+                min-height: 100%;
+            }
+
+            .box-2{
+                float: right;
+                width: 100%;
+                height: 100%;
+                padding: 10px;
+            }            
+        }
+
+        /* Media Queries for small-tablet */
+        @media(max-width: 540px){
+
+            /* landing pic */
+            .text{
+                font-size: 100%;
+                line-height: 2em;
+            }
+
+            /* container-item section */
+            .item{
+                width: 100%;
+                float: none;
+            }
+        }
+
+        /* Media Queries for medium-tablet */
+        @media(max-width: 1024px){
+
+           /* Content Section */
+            .box-2{
+                padding: 10px;
+            }      
+        }
+
+        /* Media Queries for landscape-mode */
+        @media(max-height: 320px){
+
+            /* container-item section */
+            .item{
+                padding: 10px;
+            }
+        } 
+
+        /* Media Queries for foldable mobiles */
+        @media(max-width: 320px){
+
+            .box-2{
+                padding: 2px;
+            } 
+
+            .box-2 p{
+                font-size: 90%;
+            } 
         }
 
     </style>
