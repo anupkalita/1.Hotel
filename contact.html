@@ -71,11 +71,13 @@
 
         .contact-form h1{
             margin-bottom: 20px;
+            text-align: center;
         }
 
         .contact-form p{
             margin-bottom: 20px;
             font-weight: bold;
+            text-align: center;
         }
 
         .contact-form label{
@@ -138,6 +140,52 @@
             padding: 20px;
             color: white;
         }
+            /* Media Queries for Mobiles*/
+        @media(max-width: 500px){
+
+            /* nav-bar */
+            .nav-bar h1{
+                display: block;
+                margin-left: 5%;
+                font-size: 120%;
+                padding-bottom: 0.5rem;
+                color:#ff6100;
+                
+            }
+
+            .nav-bar ul{
+                float: none;
+                margin: auto;
+                text-align: center;
+            }
+
+            .nav-bar li{
+                float: none;
+                list-style: none;
+
+            }
+
+            .nav-bar a{
+                text-decoration: none;
+                display: block;
+                color: white;
+                padding: 5px;
+                font-size: 0.9rem;
+            }
+
+            /* Contact-Details Section */
+
+            .contact-details{
+                height: 100%;
+            }
+            .details{
+                width: 100%;
+                float: none;
+                padding-bottom: 20px;
+                border-bottom: 1px solid grey;
+            }
+        }
+
 
     </style>
 
