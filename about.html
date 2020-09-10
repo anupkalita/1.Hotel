@@ -66,7 +66,7 @@
 
         /* About-Info Section */
         .about-info{
-            height: 350px;
+            height: 100%;
             overflow: hidden;
         }
 
@@ -75,7 +75,7 @@
             float: left;
             padding: 30px;
             min-height: 100%;
-            text-align: justify;
+            text-align: center;
             line-height: 2em;
         }
 
@@ -100,11 +100,12 @@
             border-radius: 50%;
         }
 
-        
+
+         /* Testimonial Section */
         .testimonial{
             clear: both;
             min-height: 400px;
-            background: url(./img/test-bg.jpg) no-repeat;
+            background: url(./img/test-bg.jpg) no-repeat center center/cover;
             background-size: cover;
             padding: 30px;
         }
@@ -143,6 +144,56 @@
             background-color: #2b2d32;
             padding: 20px;
             color: white;
+        }
+
+        /* Media Queries for Mobiles*/
+        @media(max-width: 500px){
+
+            /* nav-bar */
+            .nav-bar h1{
+                display: block;
+                margin-left: 5%;
+                font-size: 120%;
+                padding-bottom: 0.5rem;
+                color:#ff6100;
+                
+            }
+
+            .nav-bar ul{
+                float: none;
+                margin: auto;
+                text-align: center;
+            }
+
+            .nav-bar li{
+                float: none;
+                list-style: none;
+
+            }
+
+            .nav-bar a{
+                text-decoration: none;
+                display: block;
+                color: white;
+                padding: 5px;
+                font-size: 0.9rem;
+            }
+
+            /* about-info section */
+            .info{
+                width:100%;
+                float: none;
+                padding: 20px;
+                line-height: 1.5em;
+            }
+
+            .image{
+                width: 100%;
+            }
+            .image img{
+                width: 100%;
+                border-radius: 50%;
+            }
         }
 
     </style>
